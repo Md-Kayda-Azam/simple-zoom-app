@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoom oct-28-2022</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="section">
+        <div class="body">
+            <div class="call-manage">
+                <button id="create-offer">Create offfer</button>
+                <textarea name="" id="offer-sdp"></textarea>
+                <hr>
+                <button id="create-answer">Create Answer</button>
+                <textarea name="" id="answer-sdp"></textarea>
+                <hr>
+                <button id="add-answer">Add Answer</button>
+                <textarea name="" id="add-answer-sdp"></textarea>
+            </div>
+
+            <div class="screen-01">
+                <video autoplay id="s1" src=""></video>
+             <div class="screen_02">
+                 <video autoplay id="s2" src=""></video>
+             </div>
+         </div>
+        </div>
+        <div class="footer">
+            <div class="video-audio">
+                <div class="audio">
+                    <div class="a">
+                        <button id="mic-toggle">
+                            <i id="alock0"  class="fa-solid fa-microphone"></i>
+                        </button>
+                    </div>
+                    Mute
+                </div>
+                <div class="video">
+                    <div class="v">
+                        <button id="camera-toggle" class="active">
+                            <i  id="vlock0" class="fa-solid fa-video"></i>
+                        </button>
+                    </div>
+                    Stop 
+                </div>
+            </div>
+            <div class="all-info">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <i id="i" class="fa-solid fa-angle-up"></i>
+                        </a>Security
+                    </li>
+                    <li>
+                        <a href="#">
+                             <i class="fa-solid fa-user-group"></i>
+                             <i id="i" class="fa-solid fa-angle-up"></i>
+                        </a>Participants
+                   </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-message"></i>
+                            <i id="i" class="fa-solid fa-angle-up"></i>
+                        </a>Chat
+                   </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-desktop"></i>
+                            <i id="i" class="fa-solid fa-angle-up"></i>
+                        </a>Share Screen
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-record-vinyl"></i>
+                            <i id="i" class="fa-solid fa-angle-up"></i>
+                        </a>Record
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <i id="i" class="fa-solid fa-angle-up"></i>
+                        </a>reactions
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-uncharted"></i>
+                            <i id="i" class="fa-solid fa-angle-up"></i>
+                        </a>App
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                            <i id="i"  class="fa-solid fa-angle-up"></i>
+                        </a>WhiteBoards
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
+
